@@ -1,0 +1,26 @@
+{
+  "name": "webring",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"./assets/cats-camping-camping.gif\" alt=\"Backdoor Banner\" width=\"100%\" /> </p>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backdoors-org/webring.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/backdoors-org/webring/issues"
+  },
+  "homepage": "https://github.com/backdoors-org/webring#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

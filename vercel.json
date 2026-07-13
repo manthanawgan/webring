@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "rewrites": [
+      {
+        "source": "/redirect",
+        "destination": "/server.js"
+      },
+      {
+        "source": "/random",
+        "destination": "/server.js"
+      },
+      {
+        "source": "/members.json",
+        "destination": "/server.js"
+      }
+    ]
+  }
