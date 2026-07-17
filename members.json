@@ -3,105 +3,120 @@
     "id": "manthan",
     "name": "manthan awgan",
     "url": "https://manthan3.me",
-    "github": "manthanawgan",
-    "desc": "vitb cse 24-28"
+    "git_acc": "github.com/manthanawgan",
+    "batch": "vitb cse 24-28",
+    "desc": ""
   },
   {
     "id": "tanishq",
     "name": "tanishq srivastava",
     "url": "https://tanishq.works",
-    "github": "tanishqsrivastavaa",
-    "desc": "vitap cse 23-27"
+    "git_acc": "github.com/tanishqsrivastavaa",
+    "batch": "vitap cse 23-27",
+    "desc": ""
   },
   {
     "id": "ritabrata",
     "name": "Ritabrata Das",
     "url": "https://margatroid.moe",
-    "github": "daiyosei",
-    "desc": "vitv cse 26-30"
+    "git_acc": "github.com/daiyosei",
+    "batch": "vitv cse 26-30",
+    "desc": ""
   },
   {
     "id": "libremelon",
     "name": "libremelon",
     "url": "https://libremelon.com",
-    "github": "libremelon",
-    "desc": "vitap cse 25-29"
+    "git_acc": "github.com/libremelon",
+    "batch": "vitap cse 25-29",
+    "desc": ""
   },
   {
     "id": "jaskaran",
     "name": "jaskaran singh",
     "url": "https://jaskaransinghs.vercel.app",
-    "github": "quantapixel",
-    "desc": "vitv cse 26-30"
+    "git_acc": "github.com/quantapixel",
+    "batch": "vitv cse 26-30",
+    "desc": ""
   },
   {
     "id": "satvik",
     "name": "satvik srivastava",
     "url": "https://bamvoov.github.io/",
-    "github": "Bamvoov",
-    "desc": "vitb cse 25-29"
+    "git_acc": "github.com/Bamvoov",
+    "batch": "vitb cse 25-29",
+    "desc": ""
   },
   {
     "id": "shreyas",
     "name": "shreyas",
     "url": "https://zhreyu.github.io/",
-    "github": "zhreyu",
-    "desc": "vitap cse 22-27"
+    "git_acc": "github.com/zhreyu",
+    "batch": "vitap cse 22-27",
+    "desc": ""
   },
   {
     "id": "ashwin",
     "name": "Ashwin Dandotiya",
     "url": "https://fyreportfolio.lovable.app/",
-    "github": "ashvyagni",
-    "desc": "vitv cse 26-30"
+    "git_acc": "github.com/ashvyagni",
+    "batch": "vitv cse 26-30",
+    "desc": ""
   },
   {
     "id": "ankababu",
     "name": "Ankababu Yadav",
     "url": "https://ankababu.me",
-    "github": "shad0w-o",
-    "desc": "vitap cse 23-27"
+    "git_acc": "github.com/shad0w-o",
+    "batch": "vitap cse 23-27",
+    "desc": ""
   },
   {
     "id": "yuvraj",
     "name": "Yuvraj Singh",
     "url": "https://ybg.neocities.org/",
-    "github": "RatEater99",
-    "desc": "vitap cse 26-30"
+    "git_acc": "github.com/RatEater99",
+    "batch": "vitap cse 26-30",
+    "desc": ""
   },
   {
     "id": "vinayak",
     "name": "Vinayak Joshi",
     "url": "https://github.com/vector15-05",
-    "github": "vector15-05",
-    "desc": "vitv cse 24-28"
+    "git_acc": "github.com/vector15-05",
+    "batch": "vitv cse 24-28",
+    "desc": ""
   },
   {
     "id": "prakhar",
     "name": "Prakhar Shukla",
     "url": "https://github.com/intrepidloaf",
-    "github": "intrepidloaf",
-    "desc": "vitb cse 24-28"
+    "git_acc": "github.com/intrepidloaf",
+    "batch": "vitb cse 24-28",
+    "desc": ""
   },
   {
     "id": "manuraj",
     "name": "Manuraj",
-    "url": "https://flingo777.github.io/ ",
-    "github": "flingo777",
-    "desc": "vitv cse 26-30"
+    "url": "https://flingo777.github.io",
+    "git_acc": "github.com/flingo777",
+    "batch": "vitv cse 26-30",
+    "desc": ""
   },
   {
     "id": "akshit",
     "name": "Akshit Kumar Lall",
     "url": "https://akshitkumarlall.com/",
-    "github": "akshit-python-programmer",
-    "desc": "vitv cse 26-30"
+    "git_acc": "github.com/akshit-python-programmer",
+    "batch": "vitv cse 26-30",
+    "desc": ""
   },
   {
     "id": "utkarsh",
     "name": "utkarsh kumar",
     "url": "https://github.com/Just-Utkarsh",
-    "github": "Just-Utkarsh",
-    "desc": "vitb cse 24-28"
+    "git_acc": "github.com/Just-Utkarsh",
+    "batch": "vitb cse 24-28",
+    "desc": ""
   }
 ]
