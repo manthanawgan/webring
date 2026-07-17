@@ -251,6 +251,12 @@ header {
 
 } */
 
+.member-batch {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-primary);
+}
+
 .member-desc {
     font-size: 0.9rem;
     color: var(--text-primary);
