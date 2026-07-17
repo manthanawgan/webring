@@ -85,7 +85,7 @@
             
             members.forEach(member => {
                 const displayUrl = member.url.replace(/^https?:\/\//, '');
-                const gitAccountUrl = member.git_acc.replace(/^https?:\/\//, '');
+                const gitAccountUrl = member.git_acc;
                 // Github, Forgejo support <git forge url>/user.png?size=64 URL
                 const avatarUrl = `${gitAccountUrl}.png?size=64`; 
                 
