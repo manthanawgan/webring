@@ -13,6 +13,11 @@ Want to join the webring?<br>
 <a href="https://tally.so/r/Xxga6V">Fill out the form</a> 
   <span>|</span>
 <a href="https://discord.gg/jfd3RYwnvg">Discord</a> 
+
+<a href="https://discord.gg/jfd3RYwnvg">
+  <img src="https://img.shields.io/badge/Join%20the%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+</a>
+
 </p>
 
 ---
@@ -29,3 +34,14 @@ the base url for the server is https://webring-vit.vercel.app. to add previous/n
   random site</a>
 <a href="https://webring-vit.vercel.app/redirect?from=your-id&dir=next">
   next site →</a>
+```
+
+---
+
+### you can also add these 88x31 buttons if you like
+<p>
+  <img src="./public/buttons/button-88x31.gif" alt="Backdoor Banner"/>
+  <img src="./public/buttons/button-88x31-shimmer.gif" alt="backdoors button"/>
+</p>
+
+made by [@manthan3](https://github.com/manthanawgan) :p 
