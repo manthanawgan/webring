@@ -80,6 +80,14 @@
     "desc": ""
   },
   {
+    "id": "404salad",
+    "name": "404salad",
+    "url": "https://404salad.com",
+    "git_acc": "https://github.com/404salad",
+    "batch": "vitc cse 22-26",
+    "desc": ""
+  },
+  {
     "id": "vinayak",
     "name": "Vinayak Joshi",
     "url": "https://github.com/vector15-05",
