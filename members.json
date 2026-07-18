@@ -8,19 +8,11 @@
     "desc": ""
   },
   {
-    "id": "ritabrata",
-    "name": "Ritabrata Das",
-    "url": "https://margatroid.moe",
-    "git_acc": "https://github.com/daiyosei",
+    "id": "akshit",
+    "name": "Akshit Kumar Lall",
+    "url": "https://akshitkumarlall.com/",
+    "git_acc": "https://github.com/akshit-python-programmer",
     "batch": "vitv cse 26-30",
-    "desc": ""
-  },
-  {
-    "id": "manthan",
-    "name": "manthan awgan",
-    "url": "https://manthan3.me",
-    "git_acc": "https://github.com/manthanawgan",
-    "batch": "vitb cse 24-28",
     "desc": ""
   },
   {
@@ -88,6 +80,14 @@
     "desc": "Linux user group of VIT Chennai. We hold technical events and seminars advocating for Linux/FOSS in VITC"
   },
   {
+    "id": "manthan",
+    "name": "manthan awgan",
+    "url": "https://manthan3.me",
+    "git_acc": "https://github.com/manthanawgan",
+    "batch": "vitb cse 24-28",
+    "desc": ""
+  },
+  {
     "id": "manuraj",
     "name": "Manuraj",
     "url": "https://flingo777.github.io",
@@ -101,6 +101,14 @@
     "url": "https://github.com/intrepidloaf",
     "git_acc": "https://github.com/intrepidloaf",
     "batch": "vitb cse 24-28",
+    "desc": ""
+  },
+  {
+    "id": "ritabrata",
+    "name": "Ritabrata Das",
+    "url": "https://margatroid.moe",
+    "git_acc": "https://github.com/daiyosei",
+    "batch": "vitv cse 26-30",
     "desc": ""
   },
   {
@@ -149,14 +157,6 @@
     "url": "https://ybg.neocities.org/",
     "git_acc": "https://github.com/RatEater99",
     "batch": "vitap cse 26-30",
-    "desc": ""
-  },
-  {
-    "id": "akshit",
-    "name": "Akshit Kumar Lall",
-    "url": "https://akshitkumarlall.com/",
-    "git_acc": "https://github.com/akshit-python-programmer",
-    "batch": "vitv cse 26-30",
     "desc": ""
   }
 ]
