@@ -1,0 +1,40 @@
+name: Sync external members
+
+on:
+  schedule:
+    # daily at 03:17 UTC — off-the-hour to avoid GitHub's cron rush
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "scripts/merge-members.mjs"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Merge external member lists
+        run: node scripts/merge-members.mjs
+
+      - name: Commit and push if members.json changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- members.json; then
+            echo "No changes to members.json"
+            exit 0
+          fi
+
+          git add members.json
+          git commit -m "chore: sync members.json from external sources"
+          git push
