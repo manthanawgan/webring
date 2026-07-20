@@ -40,6 +40,14 @@
     "desc": "Operating Systems, Embedded, Networks and Pianist"
   },
   {
+    "id": "fexa",
+    "name": "Gunit",
+    "url": "https://pwnhub.in",
+    "git_acc": "https://github.com/Fexaop",
+    "batch": "vitc cse robotics 25-29",
+    "desc": "Human, Alive,Not dead"
+  },
+  {
     "id": "ishaan",
     "name": "Ishaan Jindal",
     "url": "https://ishaanjindal.tech",
@@ -54,6 +62,14 @@
     "git_acc": "https://github.com/quantapixel",
     "batch": "vitv cse 26-30",
     "desc": ""
+  },
+  {
+    "id": "JCKawin",
+    "name": "jckawin",
+    "url": "https://inizh-website.vercel.app",
+    "git_acc": "https://github.com/JCKawin",
+    "batch": "vitc cse robotics 25-29",
+    "desc": "Game Development, Embedded Programming, Robotics"
   },
   {
     "id": "karthik",
@@ -126,6 +142,14 @@
     "git_acc": "https://github.com/zhreyu",
     "batch": "vitap cse 22-27",
     "desc": ""
+  },
+  {
+    "id": "sockyeh",
+    "name": "Sahran",
+    "url": "https://sockyeh.dev",
+    "git_acc": "https://github.com/sockyeh",
+    "batch": "vitc cse 25-29",
+    "desc": "backend dev, \"photographer\""
   },
   {
     "id": "tanishq",
