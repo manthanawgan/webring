@@ -4,23 +4,18 @@
 // repo's members.json, keyed by "id". Run with: node scripts/merge-members.mjs
 //
 // To onboard a new club, just add an entry to SOURCES below.
-
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const MEMBERS_PATH = path.join(__dirname, "..", "members.json");
-
 const SOURCES = [
   {
     name: "lugvitc",
     url: "https://raw.githubusercontent.com/lugvitc/webring/refs/heads/master/members.json",
   },
 ];
-
 const REQUIRED_FIELDS = ["id", "name", "url", "git_acc", "batch", "desc"];
-
 async function fetchSource(source) {
   const res = await fetch(source.url, {
     headers: { "User-Agent": "vit-webring-sync" },
@@ -34,7 +29,6 @@ async function fetchSource(source) {
   }
   return data;
 }
-
 function validateEntry(entry) {
   for (const key of REQUIRED_FIELDS) {
     if (typeof entry[key] !== "string" || !entry[key].trim()) {
@@ -44,17 +38,18 @@ function validateEntry(entry) {
     }
   }
 }
-
 async function main() {
   const raw = await fs.readFile(MEMBERS_PATH, "utf8");
   const local = JSON.parse(raw);
-
   if (!Array.isArray(local)) {
     throw new Error("local members.json is not an array — aborting");
   }
 
-  const byId = new Map(local.map((m) => [m.id, m]));
-  const startingCount = byId.size;
+  // Keep a mutable working copy so we can update entries in place while
+  // appending brand-new ones at the end, instead of re-sorting everything.
+  const merged = [...local];
+  const indexById = new Map(merged.map((m, i) => [m.id, i]));
+  const startingCount = merged.length;
   let added = 0;
   let updated = 0;
 
@@ -66,7 +61,6 @@ async function main() {
       console.error(`[${source.name}] skipped fetch: ${err.message}`);
       continue;
     }
-
     for (const entry of entries) {
       try {
         validateEntry(entry);
@@ -74,29 +68,27 @@ async function main() {
         console.error(`[${source.name}] skipped entry: ${err.message}`);
         continue;
       }
-
-      if (byId.has(entry.id)) {
-        const existing = byId.get(entry.id);
+      if (indexById.has(entry.id)) {
+        const idx = indexById.get(entry.id);
+        const existing = merged[idx];
         if (JSON.stringify(existing) !== JSON.stringify(entry)) {
           updated++;
         }
+        merged[idx] = entry; // update in place, position unchanged
       } else {
+        indexById.set(entry.id, merged.length);
+        merged.push(entry); // new entry goes to the end
         added++;
       }
-      byId.set(entry.id, entry);
     }
   }
 
-  const merged = [...byId.values()].sort((a, b) => a.id.localeCompare(b.id));
-
   await fs.writeFile(MEMBERS_PATH, JSON.stringify(merged, null, 2) + "\n");
-
   console.log(
     `Done. ${startingCount} -> ${merged.length} entries ` +
       `(${added} added, ${updated} updated).`
   );
 }
-
 main().catch((err) => {
   console.error("Merge failed:", err);
   process.exit(1);
