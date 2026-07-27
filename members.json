@@ -174,5 +174,13 @@
     "git_acc": "https://github.com/Fexaop",
     "batch": "vitc cse robotics 25-29",
     "desc": "Human, Alive,Not dead"
+  },
+  {
+    "id": "derpitron",
+    "name": "Derpitron",
+    "url": "https://5rupee.co.in",
+    "git_acc": "https://codeberg.org/derpitron",
+    "batch": "vitc ecm 24-28",
+    "desc": "Broad-edge calligraphy, programming, sysadministration, and polemics"
   }
 ]
