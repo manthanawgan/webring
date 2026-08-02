@@ -182,5 +182,13 @@
     "git_acc": "https://codeberg.org/derpitron",
     "batch": "vitc ecm 24-28",
     "desc": "Broad-edge calligraphy, programming, sysadministration, and polemics"
+  },
+  {
+    "id": "kryptonkk",
+    "name": "Krypton KK",
+    "url": "https://kryptonkk.co.in",
+    "git_acc": "https://git.kryptonkk.co.in/Krypton-KK",
+    "batch": "vitc ecm 24-28",
+    "desc": "Backend Developer with an interest in AI and Embedded Systems"
   }
 ]
