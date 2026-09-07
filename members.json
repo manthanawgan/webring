@@ -190,5 +190,13 @@
     "git_acc": "https://git.kryptonkk.co.in/Krypton-KK",
     "batch": "vitc ecm 24-28",
     "desc": "Backend Developer with an interest in AI and Embedded Systems"
+  },
+  {
+    "id": "triplesaber",
+    "name": "TripleRestriction",
+    "url": "https://tr.exists.lol",
+    "git_acc": "https://github.com/TripleRestriction",
+    "batch": "vitc cse robotics 26-30",
+    "desc": "musician who plays the computer"
   }
 ]
